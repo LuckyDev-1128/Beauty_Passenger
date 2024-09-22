@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*Left Bacground*/
+#left {
+    background: url('../assets//img/clip.png');
+    background-size: cover;
+    min-height: 1080px;
+}
+#right {
+    background: url('../assets//img/Rectangle.png');
+    background-size: cover;
+    min-height: 1080px;
+}
+.profile-card {
+    padding: 240px 100px 80px 100px;
+}
+// .avatar-card {
+//     background: url('../assets//img/avatar-card.png');
+//     background-size: cover;
+// }
+.avatar-card {
+    padding: 40px 100px;
+}
+.avatar {
+    border-color: white !important;
+}
+ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline-3:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    left: 41px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+  }
+  ul.timeline-3 > li {
+    margin: 70px 0;
+  }
+//   ul.timeline-3 > li:before {
+//     content: " ";
+//     background: white;
+//     display: inline-block;
+//     position: absolute;
+//     border-radius: 50%;
+//     border: 10px solid #C5DCE8;
+//     left: 20px;
+//     width: 45px;
+//     height: 45px;
+//     z-index: 400;
+//   }
+
+ul.timeline-3 > .one:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    z-index: 400;
+  }
+  ul.timeline-3 > .two:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 34px;
+    bottom: 115px;
+    width: 17px;
+    height: 17px;
+    z-index: 400;
+  }
+  ul.timeline-3 > .three:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #C5DCE8;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    z-index: 400;
+  }
